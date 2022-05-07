@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3D3D3D;
+    color: ivory;
+}
+
+header {
+    background-color: #1A1E23;
+    position: -webkit-sticky;
+    position: sticky;
+    color: #396F79;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    flex-wrap: nowrap;
+    padding: 15px;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 34px;
+    border-right: 2px solid #592b8c;
+    padding-right: 5px;
+    
+}
+
+header nav {
+    margin: 7px 0;
+    
+    width: 80%;
+    
+    
+}
+header nav ul {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 3px;
+    font-size: 2vw;
+    
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #396F79;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 100%;
+    display:flex;
+    
+    
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #396F79;
+    font-size: 22px;
+    z-index: 5;
+    border-left: 2px solid #396F79;
+    padding-left: 2px;
+    
+}
+/*header end*/
+
+.hero {
+    background-image: url("..assets\images\rainbow.jpg");
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 980px) {
+    
+    header h1 {
+        font-size: 30px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    nav ul li a {
+        
+       justify-content: space-between;
+    }
+
+    nav ul li a:hover {
+       
+        
+        width: 100%;
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    
+    header h1 {
+        font-size: 28px;
+    }
+    
+    nav ul li a:hover {
+       
+        border: none;
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+    header {
+        padding: 0;
+        height: 12vh;
+        width: 100%;
+    }
+    header h1 {
+        display: none;
+        flex: 0;
+    }
+    nav {
+        width: 100%;
+        
+    }
+    nav ul li {
+        
+    }
+
+    nav  ul li a{
+       
+        width: 100%;
+        font-size: 3vh;
+        
+    }
+    nav ul li a:hover {
+       
+        
+        width: 100%;
+        border: none;
+        font-size: 16px;
+    }
+    
+}
