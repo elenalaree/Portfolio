@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #3D3D3D;
+    background-color: #030104;
     color: ivory;
 }
 
@@ -20,22 +20,18 @@ header {
     z-index: 999;
     top: 0;
     flex-wrap: nowrap;
-    padding: 15px;
+    padding: 5px;
 }
+
 header h1 {
     font-weight: bold;
     font-size: 34px;
-    border-right: 2px solid #592b8c;
-    padding-right: 5px;
-    
+    margin-top: 5px;
 }
 
 header nav {
-    margin: 7px 0;
-    
-    width: 80%;
-    
-    
+    margin: 7px 0;   
+    width: 80%;    
 }
 header nav ul {
     text-decoration: none;
@@ -44,10 +40,7 @@ header nav ul {
     list-style-type: none;
     justify-content: space-evenly;
     margin: 3px;
-    font-size: 2vw;
-    
-    
-    
+    font-size: 2vw; 
 }
 
 nav ul li a {
@@ -57,26 +50,161 @@ nav ul li a {
     padding-top: 5px;
     width: 100%;
     display:flex;
-    
-    
 }
 
 nav ul li a:hover {
     text-decoration: none;
     color: #396F79;
     font-size: 22px;
-    z-index: 5;
     border-left: 2px solid #396F79;
     padding-left: 2px;
     
 }
+
 /*header end*/
 
+/*Hero banner section*/
+
 .hero {
-    background-image: url("..assets\images\rainbow.jpg");
-    height: 15vh;
+    background-image: url("/assets/images/pink-blue.jpg");
+    height: 20vh;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    background-position: 50% ;
+    display: flex;
+}
+
+.quote {
+    
+    background-color: #396F79;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+/*end hero banner*/
+
+/*About Me*/
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.tab {
+    border-right: 5px solid #024A48;
+    
+    width: 20%;
+}
+
+.tab h2 {
+    text-align: right;
+    padding-right: 10px
+}
+
+.center {
+    width: 80%;
+    display: flex;
+    padding: 10px;
+}
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.text {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/*Begin About Me section*/
+
+
+
+/*Begin projects section*/
+.project {
+    min-width: 250px;
+    min-height: 200px;
+    border: 5px solid #024A48;
+    background-color: darkgray;
+    margin: 5px;
+    background-size: cover;
+    display: flex;
+    opacity: 0.75;
+}
+.project div {
+    background-color: #048B87;
+    color:black;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    padding: 5px;
+    z-index: 5;
+    opacity: 1;
+
+}
+
+.project:hover {
+    opacity: 1;
+    z-index: 5;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+.project a {
+    text-decoration: none;
+ 
+}
+
+.project:first-child {
+    width: 80%;
+    
+
+}
+
+.project img {
+    max-width: 100%;
+    position: relative;
+    z-index: 4;
+    object-fit: fill;
+    
+   
+}
+
+.run {
+    background-image: url("/assets/images/hero-bg.jpg");
+}
+
+.comp {
+    background-image: url("/assets/images/computer.jpg");
+    background-size: cover;
+    
+}
+
+.horiseon {
+    background-image: url("/assets/images/seo.jpg");
+    
+}
+
+.wtf {
+    background-image: url("/assets/images/fret.jpg");
+}
+
+.betty {
+    background-image: url("/assets/images/bettys.jpg");
+}
+
+.center a {
+    text-decoration: none;
+    color:#396F79;
 }
 
 
@@ -147,5 +275,18 @@ nav ul li a:hover {
         border: none;
         font-size: 16px;
     }
+
+    .hero {
+        width: auto;
+    }
+    .quote {
+        font-size: 2vh;
+    }
+
+    .tab h2 {
+        font-size: 2vh;
+    }
+
+
     
 }
