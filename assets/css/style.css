@@ -76,7 +76,6 @@ nav ul li a:hover {
 }
 
 .quote {
-    
     background-color: #396F79;
     width: fit-content;
     height: fit-content;
@@ -95,7 +94,6 @@ nav ul li a:hover {
 
 .tab {
     border-right: 5px solid #024A48;
-    
     width: 20%;
 }
 
@@ -113,7 +111,6 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
 }
 
 .text {
@@ -128,6 +125,7 @@ nav ul li a:hover {
 
 
 /*Begin projects section*/
+
 .project {
     min-width: 250px;
     min-height: 200px;
@@ -138,6 +136,7 @@ nav ul li a:hover {
     display: flex;
     opacity: 0.75;
 }
+
 .project div {
     background-color: #048B87;
     color:black;
@@ -181,7 +180,6 @@ nav ul li a:hover {
     position: relative;
     overflow: hidden;
     object-fit: scale-down;
-   
 }
 
 .run {
@@ -191,7 +189,6 @@ nav ul li a:hover {
 .comp {
     background-image: url("../images/computer.jpg");
     background-size: cover;
-    
 }
 
 .horiseon {
@@ -222,18 +219,16 @@ nav ul li a:hover {
     }
     
     nav ul li a {
-        
        justify-content: space-between;
     }
 
     nav ul li a:hover {
-       
-        
         width: 100%;
         font-size: 18px;
     }
     
 }
+
 @media screen and (max-width: 768px) {
     
     header h1 {
@@ -241,7 +236,6 @@ nav ul li a:hover {
     }
     
     nav ul li a:hover {
-       
         border: none;
         font-size: 16px;
     }
@@ -255,27 +249,22 @@ nav ul li a:hover {
         height: 12vh;
         width: 100%;
     }
+    
     header h1 {
         display: none;
         flex: 0;
     }
+
     nav {
         width: 100%;
-        
-    }
-    nav ul li {
-        
     }
 
     nav  ul li a{
-       
         width: 100%;
-        font-size: 3vh;
-        
+        font-size: 3vh; 
     }
+
     nav ul li a:hover {
-       
-        
         width: 100%;
         border: none;
         font-size: 16px;
@@ -284,14 +273,12 @@ nav ul li a:hover {
     .hero {
         width: auto;
     }
+
     .quote {
         font-size: 2vh;
     }
 
     .tab h2 {
         font-size: 2vh;
-    }
-
-
-    
+    } 
 }
