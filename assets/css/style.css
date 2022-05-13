@@ -55,7 +55,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
     color: #396F79;
-    font-size: 22px;
+    font-size: 2.1vw;
     border-left: 2px solid #396F79;
     padding-left: 2px;
     
@@ -161,23 +161,30 @@ nav ul li a:hover {
 
 .project a {
     text-decoration: none;
- 
+    
 }
-
+.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
 .project:first-child {
     width: 80%;
     
 
 }
 
-.project img {
+.picture {
     max-width: 100%;
+    max-height: 100%;
     position: relative;
-    z-index: 4;
-    object-fit: fill;
-    
+
+    overflow: hidden;
+    object-fit: scale-down;
    
 }
+
 
 .run {
     background-image: url("/assets/images/hero-bg.jpg");
