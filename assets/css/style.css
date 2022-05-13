@@ -163,28 +163,26 @@ nav ul li a:hover {
     text-decoration: none;
     
 }
+
 .fill-div {
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
 }
-.project:first-child {
-    width: 80%;
-    
 
+.project:first-child {
+    width: 80%; 
 }
 
 .picture {
     max-width: 100%;
     max-height: 100%;
     position: relative;
-
     overflow: hidden;
     object-fit: scale-down;
    
 }
-
 
 .run {
     background-image: url("/assets/images/hero-bg.jpg");
