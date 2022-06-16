@@ -200,8 +200,9 @@ nav ul li a:hover {
     background-image: url("../images/fret.jpg");
 }
 
-.betty {
-    background-image: url("../images/bettys.jpg");
+.pastPic {
+    background-image: url("../images/earthphoto.avif");
+    background-position: 50% ;
 }
 
 .center a {
