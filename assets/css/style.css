@@ -135,6 +135,7 @@ nav ul li a:hover {
     background-size: cover;
     display: flex;
     opacity: 0.75;
+    flex-wrap: wrap;
 }
 
 .project div {
@@ -181,9 +182,12 @@ nav ul li a:hover {
     overflow: hidden;
     object-fit: scale-down;
 }
-
-.run {
-    background-image: url("../images/hero-bg.jpg");
+.pastPic {
+    background-image: url("../images/earthphoto.avif");
+    background-position: 50% ;
+}
+.dayflow {
+    background-image: url("../images/planner.jpg");
 }
 
 .comp {
@@ -191,8 +195,8 @@ nav ul li a:hover {
     background-size: cover;
 }
 
-.horiseon {
-    background-image: url("../images/seo.jpg");
+.weather {
+    background-image: url("../images/weather.jpg");
     
 }
 
@@ -200,10 +204,27 @@ nav ul li a:hover {
     background-image: url("../images/fret.jpg");
 }
 
-.pastPic {
-    background-image: url("../images/earthphoto.avif");
+.readme {
+    background-image: url("../images/code.jpg");
     background-position: 50% ;
 }
+
+.notelock {
+    background-image: url("../images/notes.jpg");
+}
+
+.techietime {
+    background-image: url("../images/techtime.jpg");
+    background-size: cover;
+}
+
+.trackr {
+    background-image: url("../images/trackr.png");
+    background-size: cover;
+}
+
+
+
 
 .center a {
     text-decoration: none;
