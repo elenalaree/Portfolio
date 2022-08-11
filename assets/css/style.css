@@ -200,8 +200,10 @@ nav ul li a:hover {
     
 }
 
-.wtf {
-    background-image: url("../images/fret.jpg");
+.forgotten {
+    background-image: url("../images/DicehalfFade.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
 
 .readme {
